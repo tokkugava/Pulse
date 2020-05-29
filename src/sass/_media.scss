@@ -1,0 +1,117 @@
+@media (max-width: 991px) {
+    .header {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 75px;
+            margin-right: 20px;
+        }
+        &__icons {
+            margin-top: 45px;
+        }
+        .button {
+            &_main {
+                margin-top: 55px;
+            }
+        }
+    }
+    .advatage {
+        &__wrapper {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        margin-left: 5px;
+        margin-right: 10px;
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            span {
+            font-size: 16px;
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 60px;
+            margin-right: 10px;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 19px;
+        }
+    }
+    .advatage {
+        padding: 60px 0 68px 0;
+        &__wrapper {
+            margin-top: -10px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 50px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__logo {
+            width: 250px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            margin-top: 25px;
+            font-size: 22px;
+        }
+        &__contacts {
+            .button {
+                width: 180px;
+                height: 40px;
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+            justify-content: center;
+        }
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+        .button {
+            &_main {
+                width: 270px;
+            }
+        }
+        &__icons {
+            margin-top: -10px;
+            width: 325px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__icon {
+            margin-top: 45px;
+        }
+    }
+}
