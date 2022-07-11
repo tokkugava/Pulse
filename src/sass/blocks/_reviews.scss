@@ -1,0 +1,32 @@
+.reviews {
+    &__wrapper {
+        padding: 50px 0 50px 0;
+        display: flex;
+        min-height: 170px;
+    }
+    img {
+        border-radius: 100%;
+        max-height: 169px;
+        max-width: 169px;
+    }
+    &__review {
+        padding-left: 60px;
+        color: #0d0d0d;
+        font-weight: 300;
+        line-height: 18px;
+    }
+    &__title {
+        font-size: 18px;
+        text-transform: bold;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    &__descr {
+        margin-bottom: 19px;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__text {
+        font-size: 15px;
+    }
+} 
